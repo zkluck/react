@@ -62,7 +62,7 @@ export function useKeepOutlet() {
             overflow: 'hidden auto',
           }}
           className="keep-alive-page"
-          // hidden={!matchPath(location.pathname, pathname)}
+          hidden={!matchPath(location.pathname, pathname)}
         >
           {element}
         </div>

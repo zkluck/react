@@ -84,7 +84,7 @@ export const router = createBrowserRouter(routes);
 
 const App = () => {
   return (
-    <KeepAliveLayout keepPaths={[/bbb/]}>
+    <KeepAliveLayout keepPaths={[/bbb/, '/']}>
       <RouterProvider router={router} />
     </KeepAliveLayout>
   );
